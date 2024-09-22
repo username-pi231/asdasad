@@ -2,7 +2,7 @@ package org.example
 
 fun main() {
     print("Сколько раз повторить? Число: ")
-    val x = readln()!!.toInt()
+    val x = readln().toInt()
     printHi(x)
 }
 
